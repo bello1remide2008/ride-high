@@ -1,0 +1,84 @@
+   <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-va-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ire Personal Portfolio Website</title>
+        <link rel="stylesheet" href="./sheet.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+    <body></nav>
+        <header class="header">
+            
+            <a href="#" class="logo">COSMIC APPOPOLY</a>
+           
+
+           <nav class="navbar">
+            <ul class="sidebar">
+            
+                 <button class="menu-hide" onclick=hideSidebar() class="sidebar-active"><a href="#"><img src="./bx-x.svg"></a></button>
+                    <li class="nav-item"><a href="#" class="active">Home</a></li>
+                    
+                        
+                   
+                    
+                <li class="nav-item"><a href="./appopoly.html">My Skills</a></li>
+                <li class="nav-item"><a href="./iremide.html">services</a></li>
+                 <li class="nav-item"><a href="./design.html">Contact me</a></li>
+                </ul> 
+            </ul> 
+                
+        <div id="main">
+            <ul>
+                <li class="hideOnMobile"> <a href=""> Home</a></li>
+                <li class="hideOnMobile"> <a href="./appopoly.html"> My Skills</a></li>
+                <li class="hideOnMobile"> <a href="./iremide.html">Services</a></li>
+                    <li class="hideOnMobile"> <a href="./design.html"> Contact-Me</a></li> 
+</ul>
+                 <button class="menu-button" onclick=showSidebar()><a href="#"><img src="./bx-menu.svg"></button>
+             </ul> 
+            
+                   
+            </nav>
+            </ul>
+                </div>
+            
+        </div>
+        </nav>
+        </header>
+        <section class="home">
+            <div class="home-content">
+                <h1> Hi I'm Iremide Bello</h1>
+                <h3>Frontier Developer And Crypto Lover</h3>
+                <p class="main-button-gradient"></p>
+                <p> We Help to create e-commerce websites for businesses and individuals also do a lo of creative design with assistance in crypto market </p>
+                <div class="btn-box">
+                    <a href="#">Hire Me</a>
+                    <a href="#">Let's Talk</a>
+                </div>
+
+            </div>
+            
+            <div class="home-sci">
+                <a href="https://facebook.com/bello iremide"><img src="./bxl-facebook.svg"></a>
+                <a href="https://instagram.com/bello iremide"><img src="./bxl-instagram.svg"></a>
+                <a href="https://twitter.com/bello iremide"><img src="./bxl-twitter.svg"></a>
+            </div>
+        
+            <span class="home-imghover"></span>
+        </section>
+        <script>
+            function showSidebar(){
+                   const sidebar= document.querySelector('.sidebar')
+                   sidebar.style.display = 'flex'
+            }
+            
+     function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+     }
+        </script>
+    </body>
+</html>

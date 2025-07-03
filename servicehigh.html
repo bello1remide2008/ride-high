@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-va-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Register for Ride high</title>
+        </head>
+        <body>
+            <h1 class="title"> Student Registration Form</h1>
+        <div class="contact-box">
+            <form action="https://formsubmit.co/ridehighacademy@gmail.com" method="POST">
+                <input type="text" name="name" required  class="field" placeholder="full Name" required>
+                <div class="birth-container">
+                <label>Date of birth</label>
+                <div class="dob-row">
+                    <input type="text" size="3" placeholder="Day"/>
+                    <input type="text" size="3" placeholder="month"/>
+                    <input type="text" size="8" placeholder="year"/>
+                    <i>(DD-MM-YYYY)</i>
+                </div>
+            </div>
+                     <div class="mobile-row">
+                         <label>Mobile-No</label>
+                    
+                        <input type="text" size="1" value="+234"/>
+                        <input type="text" class="row-mobile" size="42"/>
+                    
+                </div>
+                <div class="checkbox-group">
+                
+                    <label>Department</label>
+    
+                   <label><input type="checkbox" name="Department" /> Science </label>
+                        <label><input type="checkbox" name="Department" /> Commercial</label>
+                       <label><input type="checkbox" name="Department" /> Art</label>
+                    
+                </div>
+                      <div class="gender-container">
+                    <label> Gender:</label>
+                    <td>
+                       <label> <input type="radio" name="g" />Male</label>
+                      <label>  <input type="radio" name="g" /> Female</label>
+                    </td>
+                 </div>
+                
+                <input type="email" name="email"  required class="field" placeholder="Email Address" required>
+                <textarea name="Message" required="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+        <style>
+
+            body{
+                font-family: sans-serif;
+                margin: 0;
+                padding:20px;
+                background-color: #f4f4f4;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            .title{
+                text-align: center;
+                margin-bottom: 20px;
+                font-style: oblique;
+                color: red;
+
+            }
+            .contact-box{
+                max-width: 600px;
+                width: 100%; 
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1 );
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+         .field{
+                width: 80%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            textarea{
+                width: 100%;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                resize: vertical;
+            }
+            .contact-box td{
+                display: block;
+                margin-bottom: 5px;
+            }
+            .checkbox-group label{
+                display: block;
+                margin-bottom: 5px;
+            }
+            .dob-row{
+               display: flex; 
+               gap: 10px;
+               margin-bottom: 18px;
+                
+            }
+            .dob-row input{
+               flex:1   ;
+            }
+            label{
+                font-style:oblique;
+                font-family:Arial, Helvetica, sans-serif ;
+            }
+            .mobile-row{
+                margin-bottom: 15px;
+            }
+            .gender-container{
+                margin-bottom: 15px;
+                margin-top: 10px;
+            }
+            .btn{
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 100%;
+            }
+            @media (max-width:600px) {
+                .dob-row{
+                flex-direction: column;
+            }
+            .field{
+                width: 100%;
+            }
+            .row-mobile{
+                width: 80%;
+            }
+            .mobile-row{
+                display: flex;
+            }
+            }
+        </style>
+        </body>
+</HTML>

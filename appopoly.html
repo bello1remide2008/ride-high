@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-va-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="page-back">
+            <h1 class="titles"> MY SKILLS</h1>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <h3>Front-end</h3>
+                    <div class="content">
+                        <span><img src="./bxl-html5.svg"> HTML</span>
+                        <span><img src="./bxl-css3.svg"> CSS</span>
+                        <span><img src="./bxl-javascript.svg"> JS</span>
+                        <span><img src="./bxl-bootstrap.svg">BOOTSTRAP</span>
+
+                    </div>
+                    <div class="skills-content">
+                        <h3>Back-End</h3>
+                        <div class="content">
+                        <span><img src="./bxl-nodejs.svg"> NODE</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bottom-menu bottom-menu-inverse">
+            <div class="container">
+            <div class="row" style="color:#FFFFFF">
+                <div class="col-xs-12 col-sm-4 col-md-4 footer-column">
+                  <p>
+                    ©
+                    cosmic-appopoly
+                  </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 footer-column">
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="/p/terms" style="color:#FFFFFF">
+                        Terms of Use
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/p/privacy" style="color:#FFFFFF">
+                        Privacy Policy
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 footer-column">
+          
+            <a href="https://facebook.com/Bello Ire" style="color:#FFFFFF"><img src="./bxl-facebook.svg"></a>
+                      <a href="https://twitter.com/belloIremi46224" style="color:#FFFFFF"><img src="./bxl-twitter.svg"></a>
+                      <a href="https://www.instagram.com/be_dat_ireee" style="color:#FFFFFF"><img src="./bxl-instagram.svg"></a>
+                  </div>
+          
+                </div>
+          
+            </div>
+          </footer>
+        <style>
+          html{
+            width: 100%;
+      
+          }
+          body{
+            background-color: whitesmoke;
+          }
+          @media (max-width: 800px){
+            .skills-box .skills-content{
+              margin: 10px;
+            }
+          }
+        
+            .skills-box{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1.5rem;
+                border:2px solid rebeccapurple;
+                background-color:cornsilk ;
+            }
+            .skills-box .skills-content{
+                flex: 1 1 20rem;
+            }
+            .skills-content h3{
+                font-size: 1.3rem;
+                line-height: 1;
+                margin-bottom:.6rem;
+            }
+            .skills-content .content{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 50px;
+            
+            }
+            .skills-content .content span{
+                display: inline-flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width:100px;
+                height: 100px;
+                border:2px solid blue;
+                border-radius: .3rem;
+                font-weight: 600;
+                transition: .3s ease;
+            }
+            .skills-content .content span:hover{
+                box-shadow: var(--box-shadow);
+            }
+            .skills-content .content span:hover{
+                box-shadow: var(--box-shadow);
+            }
+        span  img{
+            width: 35px;
+                font-size: 50px;;
+               background-color: blue;
+
+            }
+            footer{
+      
+                  bottom: 0;
+                  width:100%;
+                  text-align: center;
+                background-color: #FFBD59;
+                position:relative;
+                color: #bac1c7;
+                padding:39px 0 42px ;
+        
+            }
+        .col-xs-12 a img{
+          display  : inline-block;
+      background-color: aliceblue;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+        }
+            
+    
+        </style>
+    </body>
+</HTML>

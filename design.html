@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-va-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 class="title"> CONTACT ME</h1>
+        <div class="contact-box">
+            <form action="https://formsubmit.co/iremideb82@gmail.com" method="POST">
+                <input type="text" name="name" required  class="field" placeholder="full Name" required>
+                <input type="email" name="email"  required class="field" placeholder="Email Address" required>
+                <textarea name="Message" required="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+        <style>
+            .contact-box{
+                text-align: center;
+            }
+            .contact-box .field{
+                width: 100%;
+                background: transparent;
+                border: 2px solid blue;
+                border-radius: .3rem;
+                padding: .8rem;
+                font-size: 1rem;
+                color: var(--text-color);
+                margin-bottom: 1.5rem;
+            }
+            .contact-box .field::placeholder{
+                color: var(--text-color);
+            }
+            .contact-box textarea{
+                resize: none;
+                height: 15rem;
+
+            }
+            .contact-box .btn{
+                background:aqua ;
+                border: 2px solid aqua;
+                font-size: 15px;
+                border-radius: 8px;
+                width: 150px;
+                height: 40px;
+
+                z-index: 1;
+                cursor: pointer;
+            }
+        </style>
+    </body>
+</HTML>
